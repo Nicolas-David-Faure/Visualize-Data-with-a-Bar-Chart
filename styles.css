@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+svg{
+    background: rgb(89, 163, 192);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    position: relative;
+}
+#title{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.tick > text {
+    color: rgb(132, 253, 255);
+   
+}
+
+
+.bar:hover{
+  fill: aliceblue;
+}
+#tooltip , .tooltip_2{
+    background-color: rgba(28, 171, 211, 0.759);
+    border: 1px solid rgb(102, 102, 102);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.607);
+}
+
+.tooltip_2{
+top: 150px;
+left: 100px;
+}
+.description-bar-2{
+    font-size: 1.2rem;
+    z-index: 2;
+}
